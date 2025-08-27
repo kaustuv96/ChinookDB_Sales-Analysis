@@ -15,4 +15,10 @@ The goal of the analysis is to explore sales performance across geographies and 
 ## Notes
 - All values are assumed in USD (Chinook DB does not provide currency codes).  
 - State-level analysis is limited since many records have null states.  
-- Queries are optimized for SQLite syntax (e.g., `strftime` for dates).  
+- Queries are optimized for SQLite syntax (e.g., `strftime` for dates).
+
+## Credits
+- The Chinook sample database was originally created by Lynn Henning.  
+- It is widely used in the data community as a demo database for SQL practice and educational purposes.  
+- Reference: [Chinook Database on GitHub](https://github.com/lerocha/chinook-database)
+
